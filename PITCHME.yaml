@@ -2,13 +2,6 @@
 # GitPitch Quickstart Markdown Presentation
 #
 
-
-#
-# Highlight Setting
-# Doc: https://gitpitch.com/docs/settings/highlight
-#
-highlight : tomorrow
-
 transition : slide
 
 #
@@ -58,7 +51,7 @@ theme-byline     : [ "Raleway", "#FFFFFF", "none", "#74FAA8", "100", "110", "15"
 theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#24D7B0", "100", "100", "15" ]
 theme-links      : [ "#F1C40F", "#5254F7" ]
 theme-code       : [ "Source Code Pro", "100", "120" ]
-highlight        : tomorrow
+highlight        : agate
 theme-controls   : [ "#C0C0C0" ]
 theme-margins    : [ "0", "15px" ]
 logo             : assets/img/logo.png
