@@ -2,17 +2,19 @@
 
 ---
 
+@snap[west span-40]
 ## Agenda
+@snapend
 
 @title[Slide 2]
 
-@snap[north-east span-50]
-@ol[text-10 ](false)
-1. Icebreaker and Introduction 15mins
-1. ReadyAPI automated test suite 15mins
-1. InSpec for database validation 15mins
-1. GitHub – Pull request work flow 2mins
-1. Overview of Test Report Management page in Confluence 3mins
+@snap[north-east span-60 text-09]
+@ol[list-spaced-bullets](false)
+1. Icebreaker and Introduction
+1. ReadyAPI automated test suite
+1. InSpec for database validation
+1. GitHub – Pull request work flow
+1. Overview of Test Report Management page in Confluence
 1. Q & A session (please save any questions until then)
 1. Feedback
 @olend
