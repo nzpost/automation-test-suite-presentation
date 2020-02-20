@@ -58,7 +58,17 @@ How we collaborate using ReadyAPI and Git
 
 +++
 
-Intro
+### What is ReadyAPI?
+
+</br>
+
+@ul[list-spaced-bullets text-13 list-fade-fragments](true)
+
+- **API testing** tool
+- **Extensible** with Groovy, Java
+- **Data-driven** testing
+
+@ulend
 
 +++
 
