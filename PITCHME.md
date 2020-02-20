@@ -1,24 +1,36 @@
 # Welcome!
-
+@snapend
 ---
 
-@snap[west span-40]
+@title[Agenda]
 ## Agenda
-@snapend
++++
 
-@title[Slide 2]
+Icebreaker and Introduction
 
-@snap[north-east span-60 text-09]
-@ol[list-spaced-bullets](false)
-1. Icebreaker and Introduction
-1. ReadyAPI automated test suite
-1. InSpec for database validation
-1. GitHub – Pull request work flow
-1. Overview of Test Report Management page in Confluence
-1. Q & A session (please save any questions until then)
-1. Feedback
-@olend
-@snapend
++++
+
+ ReadyAPI automated test suite
+
++++
+
+InSpec for database validation
+
++++
+
+GitHub – Pull request work flow
+
++++
+
+Overview of Test Report Management page in Confluence
+
++++
+
+Q & A session (please save any questions until then)
+
++++
+
+Feedback
 
 ---
 
@@ -74,7 +86,7 @@ How we collaborate using ReadyAPI and Git
 
 +++
 
-Demo
+# Demo!
 
 ---
 
