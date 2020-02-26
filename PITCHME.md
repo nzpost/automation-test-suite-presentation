@@ -2,41 +2,6 @@
 @snapend
 ---
 
-@title[Agenda]
-## Agenda
-+++
-
-Icebreaker and Introduction
-
-+++
-
- ReadyAPI automated test suite
-
-+++
-
-InSpec for database validation
-
-+++
-
-GitHub – Pull request work flow
-
-+++
-
-Overview of Test Report Management page in Confluence
-
-+++
-
-Q & A session (please save any questions until then)
-
-+++
-
-Feedback
-
----
-
-# Icebreaker!
-
----
 @title[Introduction]
 
 ## Introduction
@@ -47,42 +12,68 @@ What is this presentation all about?
 
 +++
 
-As test automation engineers, we are often asked what and how we are
-automating
+Introduction to Docker
 
 +++
 
-How can we make our automation efforts more visible
+How we integrate ReadyAPI with Docker for database tests
+
 
 +++
 
-Integrating automated database tests with the development pipeline
+Intro to InSpec database tests and how we used Docker to integrate with the
+development pipeline
 
 +++
 
-How we utilize docker to test database scripts and changes
+How we collaborate using Pull Requests & Git
+
+---
+
+
+# Docker
 
 +++
 
-How we collaborate using ReadyAPI and Git
+### What is Docker?
+
+</br>
+
+@ul[text-12 list-fade-fragments](true)
+
+- Like a Virtual Machine, but **faster** to start and stop (seconds vs. minutes)
+- Provides **consistent** and **reproducible** environments (runs the same on a laptop, or in CI)
+- It's the **future** of application development (and testing)
+
+@ulend
+
++++
+
+### Why did we use Docker?
+
+@ul[text-12 list-fade-fragments](true)
+- Working with **PostgreSQL** databases for the last 2 quarters
+- PostgreSQL databases hosted in **AWS**
+- **Unable** to test database changes due to firewall rules
+- Docker allows **creating** a PostgreSQL database
+- **Not just** Postgres!
+@ulend
+
++++
+
+### How we make use of Docker
+
+@ul[text-13 list-fade-fragments](false)
+- `docker **run** postgres`
+- Point ReadyAPI at **`localhost`**
+- **Run** tests!
+- `docker **rm** postgres`
+- **Repeat**
+@ulend
 
 ---
 
 ## ReadyAPI
-
-+++
-
-### What is ReadyAPI?
-
-</br>
-
-@ul[list-spaced-bullets text-13 list-fade-fragments](true)
-
-- **API testing** tool
-- **Extensible** with Groovy, Java
-- **Data-driven** testing
-
-@ulend
 
 +++
 
@@ -240,14 +231,8 @@ Test Summary: 183 successful, 0 failures, 0 skipped
 
 ---
 
-## Overview of Test Report Management page in Confluence
-
----
-
-## Q & A + Feedback
+## Q & A
 
 ---
 
 ## Thank you for attending :D
-
----
